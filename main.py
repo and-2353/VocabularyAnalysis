@@ -44,8 +44,4 @@ if __name__ == '__main__':
 
 		# 100語ごと, もしくは最後の単語通過時にカバー率を print
 		if i%100 == 0 or i == len(freq)-1:
-			print(i, counter, f'{counter/all_words*100:.3f}%')
-
-		# matplotlib でグラフにする
-		# 日本語と英語のどちらの方が語彙が多いか?
-		
+			print(i, counter, f'{counter/all_words*100:.3f}%')		
